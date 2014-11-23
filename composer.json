@@ -1,0 +1,23 @@
+{
+    "name": "sframe/config",
+    "description": "config component",
+    "keywords": ["config"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fred Yang",
+            "email": "shuky2000@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/filesystem": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SFrame\\Config": ""
+        }
+    },
+    "target-dir": "SFrame/Config"
+}
