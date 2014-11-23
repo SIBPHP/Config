@@ -18,12 +18,19 @@ return array(
     )
 );
 ```
+config_path/tt.php
+```php
+return array(
+    'hello' => 'hhhhh'
+);
+```
+
 
 demo.php
 ```php
 $config = new SFrame\Config\FileArray('config_path');
 $a = $config->get('test.a');
 $b1 = $config->get('test.b.b1');
-$df = $config->get('test.c', 'default_value');
+$hl = $config->get('tt.hello', 'default');
 $is_exists = $config->has('test.d');
 ```
