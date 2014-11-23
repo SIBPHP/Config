@@ -6,7 +6,7 @@ A simple way to load array config in file.
 composer require "sframe/config:*"
 ```
 
-# Useage
+# Usage
 
 config_path/test.php
 ```php
